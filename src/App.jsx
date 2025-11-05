@@ -1,6 +1,7 @@
 import './App.css'
 import ControlForm from './assets/components/ControlForm/ControlForm'
 import FormData from './assets/components/FormData/FormData'
+import ProductManagement from './assets/components/ProductManagement/ProductManagement'
 import SimpleForm from './assets/components/SimpleForm/SimpleForm'
 import UnControlForm from './assets/components/UnControlForm/UnControlForm'
 
@@ -17,7 +18,10 @@ function App() {
 
       {/* <ControlForm></ControlForm> */}
 
-      <UnControlForm></UnControlForm>
+      {/* <UnControlForm></UnControlForm> */}
+
+      <ProductManagement></ProductManagement>
+
     </>
   )
 }
